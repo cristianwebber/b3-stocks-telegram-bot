@@ -15,6 +15,8 @@ Commands:
 - /buy + ticker: Price and daliy variation with 15-min delay; and
 - /info: Information about the creator.
 
+![Demo](https://github.com/cristianwebber/b3-stocks-telegram-bot/blob/main/photo5064774690307942561.jpg)
+
 Bot is currently hosted in Heroku.
 
 Any suggestions are welcome.
