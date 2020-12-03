@@ -33,7 +33,7 @@ else:
 
 # Commands
 def start(update: Update, context: CallbackContext) -> None:
-    update.message.reply_text('/buy para ver cotação\n/info para mais informações')
+    update.message.reply_text('/buy + ticker para ver cotação atual;\n/info para mais informações sobre o criador.')
 
 
 def buy(update: Update, context: CallbackContext) -> None:
@@ -56,7 +56,7 @@ def buy(update: Update, context: CallbackContext) -> None:
 
 
 def unknown(update: Update, context: CallbackContext) -> None:
-    update.message.reply_text("Comando não encontrado!\nTente /buy para cotações e /info para mais informações")
+    update.message.reply_text("Comando não encontrado!\nTente /buy + ticker para cotação")
 
 
 def info(update: Update, context: CallbackContext) -> None:
